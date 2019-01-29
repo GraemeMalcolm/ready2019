@@ -1,4 +1,4 @@
-# Challenge 4:  Following the Marked Trail
+# Challenge 2b:  Following the Marked Trail
 
 ## Background
 
@@ -14,22 +14,27 @@ Previously, you build a convolutional neural network (CNN) to classify product i
 
 ## Challenge
 
-There are two elements to this challenge:
+There are three elements to this challenge:
 
-1. Use transfer learning to train a classifier based on an existing model.
-2. Use your model with new data.
+1. Explore a sample transfer learning model.
+2. Use transfer learning to train a classifier based on an existing model.
+3. Use your model with new data.
 
-### 1. Use transfer learning to train a model
+### 1. Explore a sample transfer learning model
+
+Explore the notes and code in the **02b-Transfer Learning (*framework*).ipynb** notebook in the **ready2019/notebooks** folder to see an example of using transfer learning to train a CNN.
+
+### 2. Use transfer learning to train a model
 
 Create a new CNN by using *transfer learning* to build a classifier on top of the feature extraction layers defined in an existing model.
 
 #### Hints
 
+* Base your initial solution on the code in the sample notebook.
 * You can use any base model supported by your chosen deep learning framework.
-* You should "freeze" the feature extraction layers in the base model to use their existing trained weights - you need only train the custom layers you add for classification.
 * You may need to resize the images to match the size used to train the base model you select.
 
-### 2. Use your model with new data
+### 3. Use your model with new data
 
 Use your model to predict the class of at least five images that are not included in the ***gear*** dataset. You can use the same five images you found in the previous challenge.
 

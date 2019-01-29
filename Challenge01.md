@@ -63,7 +63,7 @@ After the repo has been downloaded, switch back to the tab containing the folder
 
 ### 3. Prepare Image Data for Machine Learning
 
-In the **ready2019/notebooks** folder the **01-DataPrep.ipynb** notebook and examine the notes and code it contains. Run each code cell, and review the output. The code in the notebook:
+In the **ready2019/notebooks** folder, open the **01-DataPrep.ipynb** notebook and examine the notes and code it contains. Run each code cell, and review the output. The code in the notebook:
 
 1. Downloads and extracts a folder hierarchy of image files that you will use in subsequent challenges.
 2. Displays the first image in each folder - each folder represents a category or *class* of product image.
@@ -125,4 +125,3 @@ To complete this challenge successfully, you must run the code in the **DataPrep
 - <a href="http://pillow.readthedocs.io/en/5.3.x/reference/ImageOps.html" target="_blank">Using the *PIL ImageOps* module for image manipulation</a>
 - <a href="https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.io.html" target="_blank">Using *NumPy* for image I/O</a>
 - <a href="http://www.scipy-lectures.org/advanced/image_processing/" target="_blank">Using *NumPy* for image manipulation/processing/visualization</a>
-- <a href="https://opencv.org/" target="_blank">*OpenCV* - another library for image processing</a> (*Note: In **opencv** images are read in a BGR format, whereas **matplotlib** reads and expects images as RGB.  Conversion information can be found <a href="https://www.scivision.co/numpy-image-bgr-to-rgb/" target="_blank">here</a>*)

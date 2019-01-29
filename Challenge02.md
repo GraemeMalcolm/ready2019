@@ -11,18 +11,21 @@ The Adventure Works data science team wants to use *deep learning* techniques to
 
 ## Challenge
 
-There are two tasks in this challenge:
+There are three tasks in this challenge:
 
-1. Create and train a convolutional neural network (CNN) model
-2. Use your model with new data
+1. Explore a sample convolutional neural network model.
+2. Create and train a convolutional neural network (CNN) model.
+3. Use your model with new data.
 
-Before you start, decide as a team which deep learning framework(s) you want to explore. If you wish, different team members the team can explore PyTorch and Keras; but the important thing is that ***as a team***, you must end up with a solution that meets the challenge success critera - so decide how you want to divide the work and create a ***shared*** solution!
+> Decide as a team which deep learning framework(s) you want to explore - your coach can help you. If you wish, different team members the team can explore PyTorch and Keras; but the important thing is that ***as a team***, you must end up with a solution that meets the challenge success critera - so decide how you want to divide the work and create a ***shared*** solution!
 
-Then explore the notes and code in the **02-Image Classification (*framework*).ipynb** notebook in the **ready2019/notebooks** folder to see an example of building and using a CNN.
+### 1. Explore a sample convolutional neural network model
 
-### 1. Create and train a convolutional neural network (CNN) model
+Explore the notes and code in the **02-Image Classification (*framework*).ipynb** notebook in the **ready2019/notebooks** folder to see an example of building and using a CNN.
 
-Ina a new blank notebook, create a CNN that predicts the class of an image based on the *gear* dataset.
+### 2. Create and train a convolutional neural network (CNN) model
+
+In a a new notebook, create a CNN that predicts the class of an image based on the resized *gear* images you created in the previous challenge.
 
 * The architecture of your model should consist of a series of *convolutional*, *pooling*, *drop*, and *fully-connected* layers that you define.
 * The input layer of your model must match the size and shape of the training image arrays.
@@ -34,20 +37,14 @@ Ina a new blank notebook, create a CNN that predicts the class of an image based
 
 #### Hints
 
-* Consider the following suggested starting point architecture:
-
-    1. Input Layer (3 channel image input layer)
-    2. Convolutional (2D)
-    3. Max Pooling
-    4. Convolutional (2D)
-    5. Max Pooling
-    6. Dense (Output layer)
+* Base your initial solution on the code in the sample notebook.
+* To improve the model's performance, try adding more convolutional and pool layers, or using more training epochs.
 * Try to avoid *overfitting* your model to the training data. One sign of this is that after your training and validation loss metrics converge, the training loss continues to drop but your validation loss stays the same or rises (as shown in the image above). The end result is a model that performs well when predicting the classes of images that it has been trained on, but which does not generalize well to new images.
 * Techniques to help avoid overfitting include:
   * Including *drop* layers to randomly remove some features from the model.
   * Augmenting the data with re-oriented, skewed, or otherwise altered versions of training images.
 
-### 2. Use your model with new data
+### 3. Use your model with new data
 
 Use the model to predict the class of at least five relevant images that are not included in the ***gear*** dataset. You can find these images by using Bing to search for appropriate terms, for example:
 
@@ -57,11 +54,16 @@ Use the model to predict the class of at least five relevant images that are not
 * <a href="https://www.bing.com/images/search?q=carabiner" target="_blank">https://www.bing.com/images/search?q=carabiner</a>
 * <a href="https://www.bing.com/images/search?q=insulated+jacket" target="_blank">https://www.bing.com/images/search?q=insulated+jacket</a>
 
+#### Hints
+
+* You can download the new images to your DSVM by using the `curl` command.
+* You should resize and pre-process the new images to match the images with which the model was trained.
+
 ## Success Criteria
 
 * Successfully train a convolutional neural network model
 * Plot the average training and validation loss observed when training your model
-* Achieve model accuracy of **0.92** (92%) or greater using your test data set.
+* Achieve model accuracy of **0.90** (90%) or greater using your test data set.
 * Show predictions for the five images you identified in the **Challenge** section, like this:
 
   ![Gear predictions](images/predicted_images.png)

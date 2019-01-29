@@ -1,4 +1,4 @@
-# Challenge 5 - A Run in the Clouds
+# Challenge 3 - A Run in the Clouds
 
 ## Background
 
@@ -9,21 +9,34 @@ In this challenge you will use *Azure Machine Learning Services* and the *Azure 
 ## Prerequisites
 
 * A Data Science Virtual Machine (DSVM).
-* Your code to train an image classification model (you can use your model from either of the previous two challenges).
+* Your code to train an image classification model.
 
 ## Challenge
 
-Use the Azure Machine Learning SDK to:
+There are three elements to this challenge:
 
-1. Provision an Azure Machine Learning Workspace.
-2. Deploy your model as a web service in a container.
-3. Write Python code that uses your deployed model to predict the class of an image that was not included in the training or validation data (use Bing to find an appropriate image).
+1. Explore Azure ML Deployment.
+2. Deploy your gear classification model as a web service.
+3. Use your web service.
+
+### 1. Explore Azure ML Deployment
+
+Explore the notes and code in the **03-Azure ML (*framework*).ipynb** notebook in the **ready2019/notebooks** folder to see an example of using Azure ML to deploy a model to a containerized web service.
+
+### 2. Deploy your gear classification model as a web service
+
+Use the Azure Machine Learning SDK to provision an Azure Machine Learning Workspace, and deploy your gear classification model as a web service in an ACI container.
 
 ### Hints
 
+* Use the **Python 3.6 - Azure ML** kernel in Jupyterhub on your DSVM.
 * Your deployment must include a scoring script that loads your model, uses it to generate a prediction from the input data, and returns the prediction. Remember that you must apply any data transformations that were used to pre-process the training data to the input data.
 * You need to specify the Python libraries used by your scoring script in a .yml file, so that they are installed in the container image when it is deployed.
 * Pay careful attention to the expected formats for input and output data, which is exchanged over HTTP when using the deployed model.
+
+### 3. Use your web service
+
+Write code to consume your deployed web service and generate a predicted class for a new image of your choice.
 
 ## Success Criteria
 
