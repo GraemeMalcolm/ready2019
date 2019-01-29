@@ -41,7 +41,6 @@ Use your model to predict the class of at least five images that are not include
 ## Success Criteria
 
 * Successfully train a CNN based on an existing trained model.
-* Achieve model accuracy of **0.9** (90%) or greater using your test data set.
 * Show predictions for the five images you identified in the **Challenge** section, like this:
 
   ![Gear predictions](images/predicted_images.png)

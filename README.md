@@ -18,7 +18,7 @@ Your team has been invited to work with Adventure Works and build a series of co
 
 ## Challenges
 
-Each challenge will be preceded by a short presentation to set the context and explain fundamental concepts. Aftre the presentation, you will have a limited amount of time to review the resources provided and create your own solution that meets the challenge requirements.
+Each challenge will be preceded by a short presentation to set the context and explain fundamental concepts. After the presentation, you will have a limited amount of time to review the resources provided and create your own solution that meets the challenge requirements.
 
 * [Challenge 1: Establishing Base Camp](Challenge01.md)
 * [Challenge 2: Deep in the Woods](Challenge02.md)
