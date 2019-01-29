@@ -12,9 +12,9 @@ Team coaches are the first point of contact, and are available for technical sup
 
 ![Adventure Works](images/adventureworks_logo.png)
 
-Adventure Works, a major outdoor and climbing gear retailer, wants to understand customer behavior by learning more about the gear that consumers wear; and plans to accomplish this with powerful Microsoft and open-source technologies for computer vision.
+Adventure Works, a major outdoor and climbing gear retailer, wants to understand customer behavior by learning more about the gear that consumers purchase; and plans to accomplish this with Microsoft and open-source technologies for computer vision.
 
-Your team has been invited to work with Adventure Works and build a series of computer vision solutions based on the image data they have collected.
+Your team has been invited to work with Adventure Works and build a computer vision solution based on the image data they have collected.
 
 ## Challenges
 
