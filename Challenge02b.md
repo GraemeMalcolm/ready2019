@@ -30,6 +30,7 @@ Create a new CNN by using *transfer learning* to build a classifier on top of th
 
 #### Hints
 
+* - Use the **Python 3.5** kernel in Jupyterhub on your DSVM.
 * Base your initial solution on the code in the sample notebook.
 * You can use any base model supported by your chosen deep learning framework.
 * You may need to resize the images to match the size used to train the base model you select.

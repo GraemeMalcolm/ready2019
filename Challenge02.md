@@ -37,6 +37,7 @@ In a a new notebook, create a CNN that predicts the class of an image based on t
 
 #### Hints
 
+* Use the **Python 3.5** kernel in Jupyterhub on your DSVM.
 * Base your initial solution on the code in the sample notebook.
 * To improve the model's performance, try adding more convolutional and pool layers, or using more training epochs.
 * Try to avoid *overfitting* your model to the training data. One sign of this is that after your training and validation loss metrics converge, the training loss continues to drop but your validation loss stays the same or rises (as shown in the image above). The end result is a model that performs well when predicting the classes of images that it has been trained on, but which does not generalize well to new images.

@@ -73,6 +73,7 @@ In the **ready2019/notebooks** folder, open the **01-DataPrep.ipynb** notebook a
 
 #### Hints
 
+- Use the **Python 3.5** kernel in Jupyterhub on your DSVM.
 - The <a href="https://docs.python.org/3.6/tutorial/stdlib.html#operating-system-interface" target="_blank">**os** Python module</a> includes functions for interacting with the file system.
 - The <a href="https://matplotlib.org/2.0.2/index.html" target="_blank">**matplotlib** Python library</a> provides functions for plotting visualizations and images.
 - To ensure that plots are displayed in a notebook, you must run the following *magic* command before creating the first plot:
