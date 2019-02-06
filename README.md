@@ -18,7 +18,7 @@ Your team has been invited to work with Adventure Works and build a computer vis
 
 ## Challenges
 
-Each challenge will be preceded by a short presentation to set the context and explain fundamental concepts. After the presentation, you will have a limited amount of time to review the resources provided and create your own solution that meets the challenge requirements.
+The hack will begin with a short presentation to set the context and explain fundamental concepts. After the presentation, you will have a limited amount of time to review the resources provided and create your own solution for each challenge.
 
 * [Challenge 1: Establishing Base Camp](Challenge01.md)
 * [Challenge 2: Deep in the Woods](Challenge02.md)
