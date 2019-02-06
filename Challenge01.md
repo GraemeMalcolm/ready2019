@@ -91,8 +91,8 @@ In the **ready2019/notebooks** folder, open the **01-DataPrep.ipynb** notebook a
   2. Create a new image of the required size and shape with an appropriate background color. You can use the PIL `Image.new()` function to accomplish this.
   3. Paste the rescaled image into the center of the new background image. You can use the PIL `my_bg_img.paste()` function to accomplish this.
 - When using <a href="https://matplotlib.org/2.0.2/users/image_tutorial.html" target="_blank">*matplotlib*</a> to plot multiple images in a grid format, create a figure and add a subplot for each image by using the `my_figure.add_subplot()` function. The parameters for this function are:
-  - The total number of *columns* in the grid.
   - The total number of *rows* in the grid.
+  - The total number of *columns* in the grid.
   - The *ordinal position* of this subplot in the grid (starting with 1 in the top-left cell).
 
 ## Success Criteria
