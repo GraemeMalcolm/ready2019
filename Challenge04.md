@@ -1,4 +1,4 @@
-# Challenge 2b:  Following the Marked Trail
+# Challenge 4:  Following the Marked Trail
 
 ## Background
 
