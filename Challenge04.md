@@ -22,7 +22,7 @@ There are three elements to this challenge:
 
 ### 1. Explore a sample transfer learning model
 
-Explore the notes and code in the **02b-Transfer Learning (*framework*).ipynb** notebook in the **ready2019/notebooks** folder to see an example of using transfer learning to train a CNN.
+Explore the notes and code in the **04-Transfer Learning (*framework*).ipynb** notebook in the **ready2019/notebooks** folder to see an example of using transfer learning to train a CNN.
 
 ### 2. Use transfer learning to train a model
 
