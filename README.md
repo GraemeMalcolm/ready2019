@@ -22,7 +22,7 @@ Each challenge will be preceded by a short presentation to set the context and e
 
 * [Challenge 1: Establishing Base Camp](Challenge01.md)
 * [Challenge 2: Deep in the Woods](Challenge02.md)
-    * If Time permits, [Challenge 2b: Following the Marked Trail](Challenge02b.md)
 * [Challenge 3: A Run in the Clouds](Challenge03.md)
+* [If Time permits, Challenge 4: Following the Marked Trail](Challenge04.md)
 
 Each challenge covers a different aspect of machine learning for computer vision, and all of them will require you to write Python code. You can reference the <a href="https://docs.python.org/3.6/" target="_blank">Python 3.6 documentation</a> for help.
