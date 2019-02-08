@@ -25,7 +25,7 @@ The following DSVM configuration has been found to work well, and is the recomme
 
 - DSVM Image: *Data Science Virtual Machine for Linux (Ubuntu)*
 - Region: _Any available region_
-- Size:  _NC6_ Standard (GPU Family)
+- Size:  _NC6_ (Filter by **Family** to list **GPU** enabled images)
 - Authentication type:  _Password_
 - Username: _(Specify a **lowercase** user name of your choice)_
 - Password: _(Specify a complex password)_
@@ -34,6 +34,7 @@ After the DSVM has been created, connect to Jupyterhub and log in using the user
 
 #### Hints
 
+- If you are using an Azure subscription provided as an employee benefit, the ability to create a GPU-based VM may be restricted to specific regions. If you find that no GPU images are available, go back, change regions, and try again.
 - When provisioning the DSVM, specify a **lowercase** user name and be sure to choose **Password** as the authentication type.
 - Jupyterhub is at **https://*your.dsvm.ip.address*:8000**. For information about using Jupyterhub, see <a href="https://www.youtube.com/watch?v=4b1G9pQC3KM" target="_blank"> this video</a> or <a href="https://docs.microsoft.com/azure/machine-learning/data-science-virtual-machine/linux-dsvm-walkthrough/?wt.mc_id=OH-ML-ComputerVision#jupyterhub" target="_blank">this document</a>.
 - To get to the Jupyterhub, you must click through the non-private connection warnings in browser - this is expected behavior.
