@@ -43,6 +43,8 @@ Write code to consume your deployed web service and generate a predicted class f
 * Deploy a working container image that hosts your model.
 * Run Python code that successfully calls your deployed web service with new image data, and displays the prediction that it returns.
 
+When your coach has verified your team's solution, you can proceed to the [next challenge](Challenge04.md).
+
 ## References
 
 * <a href="https://docs.microsoft.com/en-us/azure/machine-learning/service/overview-what-is-azure-ml" target = "_blank">What is Azure Machine Learning Service?</a>

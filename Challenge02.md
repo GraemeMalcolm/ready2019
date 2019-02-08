@@ -71,6 +71,8 @@ Use the model to predict the class of at least five relevant images that are not
 
   *(Note: Your model is not required to predict the correct class for all of the images, but it would be good if it does!)*
 
+When your coach has verified your team's solution, you can proceed to the [next challenge](Challenge03.md).
+
 ## References
 
 ### CNN Concepts

@@ -48,6 +48,8 @@ Use your model to predict the class of at least five images that are not include
 
   *(Note: Your model is not required to predict the correct class for all of the images, but it would be good if it does!)*
 
+  When your coach has verified your team's solution, you have completed all of the challenges - congratulations!
+
 ## References
 
 * <a href="http://cs231n.github.io/transfer-learning/" target="_blank">Transfer Learning Notes</a>

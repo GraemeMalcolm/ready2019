@@ -102,6 +102,8 @@ To complete this challenge successfully, you must run the code in the **DataPrep
 
 ![Gear Images](images/resized_gear_images.png)
 
+When your coach has verified your team's solution, you can proceed to the [next challenge](Challenge02.md).
+
 ## References
 
 ### Data Science Virtual Machine
